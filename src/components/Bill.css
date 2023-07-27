@@ -1,0 +1,52 @@
+.AppTitle{
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+
+.BillForm{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.OrderTable {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .TableContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
